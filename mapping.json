@@ -1,0 +1,22 @@
+{
+  "action-comment-repository-sender": "CommitCommentEvent",
+  "description-master_branch-pusher_type-ref-ref_type-repository-sender": "CreateEvent",
+  "pusher_type-ref-ref_type-repository-sender": "DeleteEvent",
+  "deployment-repository-sender": "DeploymentEvent",
+  "deployment-deployment_status-repository-sender": "DeploymentStatusEvent",
+  "forkee-repository-sender": "ForkEvent",
+  "pages-repository-sender": "GollumEvent",
+  "action-comment-issue-repository-sender": "IssueCommentEvent",
+  "action-issue-repository-sender": "IssuesEvent",
+  "action-member-repository-sender": "MemberEvent",
+  "action-member-organization-scope-sender-team": "MembershipEvent",
+  "build-id-repository-sender": "PageBuildEvent",
+  "repository-sender": "PublicEvent",
+  "action-number-pull_request-repository-sender": "PullRequestEvent",
+  "after-base_ref-before-commits-compare-created-deleted-forced-head_commit-pusher-ref-repository-sender": "PushEvent",
+  "action-release-repository-sender": "ReleaseEvent",
+  "action-organization-repository-sender": "RepositoryEvent",
+  "branches-commit-context-created_at-description-id-name-repository-sender-sha-state-target_url-updated_at": "StatusEvent",
+  "organization-repository-sender-team": "TeamAddEvent",
+  "action-repository-sender": "WatchEvent"
+}

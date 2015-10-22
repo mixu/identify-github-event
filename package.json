@@ -1,0 +1,23 @@
+{
+  "name": "identify-github-event",
+  "version": "1.0.0",
+  "description": "Map Github webhook events to their names",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node generate.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixu/identify-github-event.git"
+  },
+  "author": "Mikito Takada <mikito.takada@gmail.com> (http://mixu.net/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mixu/identify-github-event/issues"
+  },
+  "homepage": "https://github.com/mixu/identify-github-event#readme",
+  "devDependencies": {
+    "lodash": "~3.10.1"
+  }
+}

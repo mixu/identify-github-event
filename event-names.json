@@ -1,0 +1,22 @@
+[
+  "CommitCommentEvent",
+  "CreateEvent",
+  "DeleteEvent",
+  "DeploymentEvent",
+  "DeploymentStatusEvent",
+  "ForkEvent",
+  "GollumEvent",
+  "IssueCommentEvent",
+  "IssuesEvent",
+  "MemberEvent",
+  "MembershipEvent",
+  "PageBuildEvent",
+  "PublicEvent",
+  "PullRequestEvent",
+  "PushEvent",
+  "ReleaseEvent",
+  "RepositoryEvent",
+  "StatusEvent",
+  "TeamAddEvent",
+  "WatchEvent"
+]
