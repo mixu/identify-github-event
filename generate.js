@@ -1,6 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
+var identifyGithubEvent = require('./');
 
 // load all events
 var all = fs.readdirSync(__dirname + '/sample-events').sort();
@@ -21,7 +22,10 @@ all.forEach(function(event) {
   });
   var signature = keys.sort().join('-');
 
-  //console.log(require(__dirname + '/sample-events/' + event));
+  var evt = require(__dirname + '/sample-events/' + event);
+  console.log(identifyGithubEvent(evt));
+  console.log(identifyGithubEvent.target(evt));
+
   // result is a set of keys that is expected on the event (unique keys)
   if (other.indexOf(signature) !== -1) {
     throw new Error('Event signatures are not unique! ' + eventName + ' shares a signature!');
